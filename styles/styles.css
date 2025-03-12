@@ -7,13 +7,12 @@ main {
 
 aside {
     width: 20rem;
-    margin-left: 25%;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    margin-left: 1rem;
+    border: 1px solid rgba(37, 5, 5, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
-
 }
 
 aside img {
@@ -31,7 +30,7 @@ p {
 }
 
 footer {
-    margin-top: 17px;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
