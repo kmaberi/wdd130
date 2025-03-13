@@ -23,10 +23,12 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    ...
+
 }
 
-p { padding: 0;}
+p {
+    padding: 0;
+}
 
 footer {
     margin-top: 15px;
