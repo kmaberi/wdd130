@@ -93,24 +93,28 @@ nav a:hover {
 
 .adventures-gallery {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
-    flex-wrap: nowrap;
+    /* Aligns images to the left */
     gap: 15px;
+    flex-wrap: nowrap;
+    /* Keep images in one horizontal row */
+    overflow-x: auto;
+    /* Adds horizontal scrolling if needed */
+    padding-bottom: 10px;
 }
 
 .adventures-gallery figure {
-    flex: 0 0 auto;
-    text-align: center;
     margin: 0;
+    text-align: center;
+    flex: 0 0 auto;
+    /* Prevent figures from stretching */
 }
 
 .adventures-gallery img {
-    width: 100%;
     max-width: 200px;
+    height: auto;
     border-radius: 10px;
 }
-
 section {
     padding: 20px;
     text-align: center;
