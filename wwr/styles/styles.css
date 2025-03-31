@@ -187,8 +187,9 @@ footer {
 
 .sociallinks {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 10px;
+    margin-left: auto;
 }
 
 footer img {
