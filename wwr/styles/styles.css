@@ -8,10 +8,33 @@
     --text-color: #333;
     --background-color: #f4f4f4;
 }
+/* Header - Use Grid */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+}
 
+/* Navigation - Use Flex */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Footer - Align Social Icons */
+footer .sociallinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Fix Color Contrast */
 body {
+    color: #333;
+    /* Ensure readable text color */
+    background-color: #f5f5f5;
+    /* Light background */
     font-family: 'Roboto', sans-serif;
-    color: var(--text-color);
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
