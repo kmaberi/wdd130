@@ -3,220 +3,19 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #bc1cb1;
-
-    /* Or use a variable: var(--background-color) */
-}
-
-/* Header (using CSS Grid) */
-header {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    padding: 15px;
-    background-color: #9200b6;
-    /* Primary Color */
-}
-
-header img {
-    height: 50px;
-}
-
-header h1 {
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    margin: 0;
-    text-align: center;
-}
-
-/* Navigation (using Flex) */
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #FFB703;
-    /* Accent Color */
-}
-
-/* Main Content Container */
-main {
-    padding: 20px;
-}
-
-/* Company Information Section */
-#company-info {
-    margin-bottom: 30px;
-    background-color: #90c4ef;
-    /* Secondary Color */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#company-info h2 {
-    margin-top: 0;
-}
-
-#company-info p {
-    margin: 10px 0;
-}
-
-/* Google Map Embed */
-#company-info iframe {
-    width: 100%;
-    border: none;
-    /* Removed inline style */
-    border-radius: 10px;
-    margin-top: 15px;
-}
-
-/* Employee Profiles Section */
-#employee-profiles {
-    margin-bottom: 30px;
-}
-
-#employee-profiles h2 {
-    margin-bottom: 15px;
-}
-
-.profiles {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.profiles figure {
-    text-align: center;
-    margin: 0;
-}
-
-.profiles img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-}
-
-/* Contact Form Section */
-#contact-form {
-    margin-bottom: 30px;
-}
-
-#contact-form h2 {
-    margin-bottom: 15px;
-}
-
-#contact-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-#contact-form label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
-}
-
-#contact-form input[type="text"],
-#contact-form input[type="email"],
-#contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #c61c1c;
-    border-radius: 5px;
-}
-
-#contact-form fieldset {
-    border: 1px solid #0c0b0b;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#contact-form legend {
-    font-weight: bold;
-    padding: 0 5px;
-}
-
-#contact-form input[type="radio"],
-#contact-form input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-#contact-form button {
-    background-color: #c412c1;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    align-self: flex-start;
-}
-
-#contact-form button:hover {
-    background-color: #FFB703;
-}
-
-/* Footer */
-footer {
-    background-color: #0077B6;
-    color: white;
-    padding: 10px 15px;
-}
-
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.footer-content p {
-    margin: 0;
-}
-
-.sociallinks ul {
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-end;
-}
-
-.sociallinks a img {
-    width: 30px;
-}
-
-/* Global Styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
-    /* Or use a variable: var(--background-color) */
+    color: #333;
+    /* Default dark text for body */
 }
 
-/* Header (using CSS Grid) */
+/* Header */
 header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     padding: 15px;
-    background-color: #0077B6;
-    /* Primary Color */
+    background-color: #005f8c;
+    /* Darker blue for improved contrast */
 }
 
 header img {
@@ -225,7 +24,8 @@ header img {
 
 header h1 {
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: #fff;
+    /* White text for high contrast */
     margin: 0;
     text-align: center;
 }
@@ -240,7 +40,8 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: #fff;
+    /* White text */
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -249,21 +50,17 @@ nav a {
 
 nav a:hover {
     color: #FFB703;
-    /* Accent Color */
-}
-
-/* Main Content Container */
-main {
-    padding: 20px;
+    /* Accent color on hover */
 }
 
 /* Company Information Section */
 #company-info {
-    margin-bottom: 30px;
     background-color: #90E0EF;
-    /* Secondary Color */
+    /* Light blue background */
     padding: 20px;
     border-radius: 10px;
+    color: #333;
+    /* Dark text for good contrast on light background */
 }
 
 #company-info h2 {
@@ -278,7 +75,6 @@ main {
 #company-info iframe {
     width: 100%;
     border: none;
-    /* Removed inline style */
     border-radius: 10px;
     margin-top: 15px;
 }
@@ -357,7 +153,8 @@ main {
 }
 
 #contact-form button {
-    background-color: #0077B6;
+    background-color: #005f8c;
+    /* Matching darker blue for consistency */
     color: white;
     border: none;
     padding: 12px 20px;
@@ -373,8 +170,9 @@ main {
 
 /* Footer */
 footer {
-    background-color: #0077B6;
-    color: white;
+    background-color: #005f8c;
+    /* Darker blue for improved contrast */
+    color: #fff;
     padding: 10px 15px;
 }
 
